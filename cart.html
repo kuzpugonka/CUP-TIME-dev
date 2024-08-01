@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
@@ -48,17 +48,499 @@
     </header>
 
     <main class="main">
-      <section class="cart">
+      <section class="carts">
         <div class="container">
+          <h1 class="carts__title title">Корзина (6)</h1>
+
+          <div class="carts__wrapper">
+            <ul class="carts__list">
+              <!-- cart -->
+              <li class="carts__item">
+                <article class="cart">
+                  <img
+                    src="./image/goods/photo-2.png"
+                    alt="Кокосовая матча"
+                    class="cart__img"
+                  />
+                  <div class="cart__content">
+                    <h3 class="cart__title">Кокосовая матча</h3>
+                    <div class="cart__sum">
+                      <button class="cart__sum-min">
+                        <svg
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="35"
+                            height="35"
+                            rx="3.5"
+                            stroke="#B8B8B8"
+                          />
+                          <rect
+                            x="12"
+                            y="17"
+                            width="12"
+                            height="2"
+                            fill="#1D1C1D"
+                          />
+                        </svg>
+                      </button>
+                      <p class="cart__sum-num">1</p>
+                      <button class="cart__sum-max">
+                        <svg
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="35"
+                            height="35"
+                            rx="3.5"
+                            stroke="#B8B8B8"
+                          />
+                          <rect
+                            x="12"
+                            y="17.25"
+                            width="12"
+                            height="1.5"
+                            fill="#1D1C1D"
+                          />
+                          <rect
+                            x="17.25"
+                            y="24"
+                            width="12"
+                            height="1.5"
+                            transform="rotate(-90 17.25 24)"
+                            fill="#1D1C1D"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                    <p class="cart__price">390 ₽</p>
+                  </div>
+                </article>
+              </li>
+
+              <li class="carts__item">
+                <article class="cart">
+                  <img
+                    src="./image/goods/photo-1.png"
+                    alt="Кокосовая матча"
+                    class="cart__img"
+                  />
+                  <div class="cart__content">
+                    <h3 class="cart__title">Зеленый индонезийский чай</h3>
+                    <div class="cart__sum">
+                      <button class="cart__sum-min">
+                        <svg
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="35"
+                            height="35"
+                            rx="3.5"
+                            stroke="#B8B8B8"
+                          />
+                          <rect
+                            x="12"
+                            y="17"
+                            width="12"
+                            height="2"
+                            fill="#1D1C1D"
+                          />
+                        </svg>
+                      </button>
+                      <p class="cart__sum-num">1</p>
+                      <button class="cart__sum-max">
+                        <svg
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="35"
+                            height="35"
+                            rx="3.5"
+                            stroke="#B8B8B8"
+                          />
+                          <rect
+                            x="12"
+                            y="17.25"
+                            width="12"
+                            height="1.5"
+                            fill="#1D1C1D"
+                          />
+                          <rect
+                            x="17.25"
+                            y="24"
+                            width="12"
+                            height="1.5"
+                            transform="rotate(-90 17.25 24)"
+                            fill="#1D1C1D"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                    <p class="cart__price">340 ₽</p>
+                  </div>
+                </article>
+              </li>
+
+              <li class="carts__item">
+                <article class="cart">
+                  <img
+                    src="./image/goods/photo.png"
+                    alt="Кокосовая матча"
+                    class="cart__img"
+                  />
+                  <div class="cart__content">
+                    <h3 class="cart__title">Черный чай из Эфиопии</h3>
+                    <div class="cart__sum">
+                      <button class="cart__sum-min">
+                        <svg
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="35"
+                            height="35"
+                            rx="3.5"
+                            stroke="#B8B8B8"
+                          />
+                          <rect
+                            x="12"
+                            y="17"
+                            width="12"
+                            height="2"
+                            fill="#1D1C1D"
+                          />
+                        </svg>
+                      </button>
+                      <p class="cart__sum-num">1</p>
+                      <button class="cart__sum-max">
+                        <svg
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="35"
+                            height="35"
+                            rx="3.5"
+                            stroke="#B8B8B8"
+                          />
+                          <rect
+                            x="12"
+                            y="17.25"
+                            width="12"
+                            height="1.5"
+                            fill="#1D1C1D"
+                          />
+                          <rect
+                            x="17.25"
+                            y="24"
+                            width="12"
+                            height="1.5"
+                            transform="rotate(-90 17.25 24)"
+                            fill="#1D1C1D"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                    <p class="cart__price">380 ₽</p>
+                  </div>
+                </article>
+              </li>
+
+              <li class="carts__item">
+                <article class="cart">
+                  <img
+                    src="./image/goods/photo-5.png"
+                    alt="Кокосовая матча"
+                    class="cart__img"
+                  />
+                  <div class="cart__content">
+                    <h3 class="cart__title">Черный чай из Калифорнии</h3>
+                    <div class="cart__sum">
+                      <button class="cart__sum-min">
+                        <svg
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="35"
+                            height="35"
+                            rx="3.5"
+                            stroke="#B8B8B8"
+                          />
+                          <rect
+                            x="12"
+                            y="17"
+                            width="12"
+                            height="2"
+                            fill="#1D1C1D"
+                          />
+                        </svg>
+                      </button>
+                      <p class="cart__sum-num">1</p>
+                      <button class="cart__sum-max">
+                        <svg
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="35"
+                            height="35"
+                            rx="3.5"
+                            stroke="#B8B8B8"
+                          />
+                          <rect
+                            x="12"
+                            y="17.25"
+                            width="12"
+                            height="1.5"
+                            fill="#1D1C1D"
+                          />
+                          <rect
+                            x="17.25"
+                            y="24"
+                            width="12"
+                            height="1.5"
+                            transform="rotate(-90 17.25 24)"
+                            fill="#1D1C1D"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                    <p class="cart__price">360 ₽</p>
+                  </div>
+                </article>
+              </li>
+
+              <li class="carts__item">
+                <article class="cart">
+                  <img
+                    src="./image/goods/photo-4.png"
+                    alt="Кокосовая матча"
+                    class="cart__img"
+                  />
+                  <div class="cart__content">
+                    <h3 class="cart__title">Органическая веганская матча</h3>
+                    <div class="cart__sum">
+                      <button class="cart__sum-min">
+                        <svg
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="35"
+                            height="35"
+                            rx="3.5"
+                            stroke="#B8B8B8"
+                          />
+                          <rect
+                            x="12"
+                            y="17"
+                            width="12"
+                            height="2"
+                            fill="#1D1C1D"
+                          />
+                        </svg>
+                      </button>
+                      <p class="cart__sum-num">1</p>
+                      <button class="cart__sum-max">
+                        <svg
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="35"
+                            height="35"
+                            rx="3.5"
+                            stroke="#B8B8B8"
+                          />
+                          <rect
+                            x="12"
+                            y="17.25"
+                            width="12"
+                            height="1.5"
+                            fill="#1D1C1D"
+                          />
+                          <rect
+                            x="17.25"
+                            y="24"
+                            width="12"
+                            height="1.5"
+                            transform="rotate(-90 17.25 24)"
+                            fill="#1D1C1D"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                    <p class="cart__price">400 ₽</p>
+                  </div>
+                </article>
+              </li>
+
+              <li class="carts__item">
+                <article class="cart">
+                  <img
+                    src="./image/goods/photo-3.png"
+                    alt="Кокосовая матча"
+                    class="cart__img"
+                  />
+                  <div class="cart__content">
+                    <h3 class="cart__title">Чай черный Лакандона</h3>
+                    <div class="cart__sum">
+                      <button class="cart__sum-min">
+                        <svg
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="35"
+                            height="35"
+                            rx="3.5"
+                            stroke="#B8B8B8"
+                          />
+                          <rect
+                            x="12"
+                            y="17"
+                            width="12"
+                            height="2"
+                            fill="#1D1C1D"
+                          />
+                        </svg>
+                      </button>
+                      <p class="cart__sum-num">1</p>
+                      <button class="cart__sum-max">
+                        <svg
+                          width="36"
+                          height="36"
+                          viewBox="0 0 36 36"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            x="0.5"
+                            y="0.5"
+                            width="35"
+                            height="35"
+                            rx="3.5"
+                            stroke="#B8B8B8"
+                          />
+                          <rect
+                            x="12"
+                            y="17.25"
+                            width="12"
+                            height="1.5"
+                            fill="#1D1C1D"
+                          />
+                          <rect
+                            x="17.25"
+                            y="24"
+                            width="12"
+                            height="1.5"
+                            transform="rotate(-90 17.25 24)"
+                            fill="#1D1C1D"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                    <p class="cart__price">390 ₽</p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+
+            <div class="carts__itog">
+              <div class="carts__itog-sum">
+                <p>Итого:</p>
+                <p>2200 ₽</p>
+              </div>
+              <button class="carts__itog-btn">Заказать</button>
+            </div>
+          </div>
 
         </div>
       </section>
 
       <section class="order">
         <div class="container">
+          <h2 class="order__title title">Доставка</h2>
 
+          <form class="order__form" action="">
+            <input 
+              class="order__form-name input"
+              placeholder="Имя"
+              type="text"
+              name="name">
+            <input 
+              class="order__form-phone input"
+              placeholder="Телефон"
+              type="tel" 
+              name="phone" 
+              id="">
+            <input 
+              class="order__form-addres input"
+              placeholder="Адрес"
+              type="text"
+              name="addres">
+          </form>
         </div>
-
       </section>
     </main>
 
@@ -98,29 +580,29 @@
 
         <div class="footer__info">
           <p class="footer__copiright">©CUPTIME, 2024</p>
+
+          <p class="footer__description">Проект сделан в учебных целях</p>
+
+          <ul class="footer__developers">
+            <li class="footer__developer">
+              Designer:
+              <a href="#" class="footer__developer-link" target="_blank">
+                Anastasia Ilina
+              </a>
+            </li>
+
+            <li class="footer__developer">
+              Developer:
+              <a
+                href="https://t.me/kuzpugonka"
+                class="footer__developer-link"
+                target="_blank"
+              >
+                Sofya Iliasova
+              </a>
+            </li>
+          </ul>
         </div>
-
-        <p class="footer__description">Проект сделан в учебных целях</p>
-
-        <ul class="footer__developers">
-          <li class="footer__developer">
-            Designer:
-            <a href="#" class="footer__developer-link" target="_blank">
-              Anastasia Ilina
-            </a>
-          </li>
-
-          <li class="footer__developer">
-            Developer:
-            <a
-              href="https://t.me/kuzpugomka"
-              class="footer__developer-link"
-              target="_blank"
-            >
-              Sofya Iliasova
-            </a>
-          </li>
-        </ul>
 
         <div class="footer__contacts">
           <a
