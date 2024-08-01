@@ -43,6 +43,17 @@ img {
   height: auto;
 }
 
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -117,7 +128,7 @@ img {
 .products {
   padding: 100px 0;
 }
-.products__title {
+.title {
   font-size: 54px;
   line-height: 1.1;
   color: #64099b;
@@ -216,11 +227,111 @@ img {
 /* .footer__social-item {} */
 /* .footer__social-link {} */
 
-.cart {
+.carts {
   margin-top: 216px;
   margin-bottom: 100px;
+}
+.carts__wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.carts__list {
+  width: 860px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.cart {
+  font-size: 0;
+  background-color: #f2f9f7;
+  border-radius: 6px;
+  min-height: 358px;
+  display: flex;
+  flex-direction: column;
+  color: #1d1c1d;
+  font-size: 20px;
+}
+.cart__img {
+  width: 100%;
+}
+.cart__content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+.cart__title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  flex-grow: 1;
+  color: #1d1c1d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.cart__sum {
+  height: 36px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.cart__sum-num {
+  font-size: 20px;
+  text-align: start;
+}
+.cart__price {
+  margin: 0;
+}
+.carts__itog {
+  width: 420px;
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+.carts__itog-sum {
+  color: #1d1c1d;
+}
+.carts__itog-sum p:first-child {
+  margin-bottom: 6px;
+}
+.carts__itog-btn {
+  border: 1px solid #64099b;
+  border-radius: 4px;
+  padding: 16px 24px;
+  color: #64099b;
 }
 
 .order {
   margin-bottom: 100px;
+}
+.order__form {
+  width: 650px;
+
+}
+.input {
+  border: none;
+  padding: 17px 16px;
+  background: #f2f9f7;
+  font-size: 16px;
+  line-height: 1.24;
+  color: #b8b8b8;
+}
+.order__form-name {
+  width: 310px;
+  margin-bottom: 20px;
+  
+}
+.order__form-phone {
+  width: 310px;
+  margin-left: 20px;
+}
+.order__form-addres {
+  width: 640px;
 }
